@@ -1,3 +1,6 @@
+#include<string>
+#include<fstream>
+
 #include <iostream>
 using namespace std;
 
@@ -35,3 +38,21 @@ int main()
     statemachine(input, len);
     return 0;
 }
+//file i/o
+//using namespace std;
+//int main()
+//{
+//	string line;
+//	string str = "";
+//	fstream myfile;
+//	cout << "reading from the test file: " << endl;
+//	myfile.open("test_file.txt",ios::in);
+//	if (myfile.is_open()) {
+//		while(getline(myfile, line)){
+//			str += line + "\n";
+//		}
+//		cout << str;
+//		myfile.close();
+//	}
+//
+//}
